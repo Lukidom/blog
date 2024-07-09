@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* PT Serif */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+/* Sometype Mono */
+ /* #bisque tan #184543 green #83DOC6 light */
+
+.h1 {
+  font-family: 'PT Serif', serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 50px;
+
+}
+
+body {
+    font-family: 'PT Serif', serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0;
+    color: #184543;
+    background-color: bisque;
+}
+
+.main-nav {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+    justify-content: end;
+    justify-items: end;
+    border-top: 1px solid #184543;
+    border-bottom: 1px solid #184543;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  
+  .item2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  
+  .item3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-content: end;
+    justify-items: end;
+  }
+  .main-title {
+    grid-column-start: 2;
+    justify-self: center;
+  }
+  .main-img {
+    grid-column-start: 2;
+    justify-self: center;
+  }
+  .container {
+    grid-column-start: 1
+    
+  }
+  .filter {
+    grid-column-start: 3;
+    justify-self: center;
+  }
+
+  .discription {
+    grid-column-start: 2;
+  }
